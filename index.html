@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE Challenge 1 - Decodificador</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" id="logo" src="Vector.png" alt="Alura logo" />
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <form class="form" action="submit">
+            <div class="inputContainer">
+              <textarea
+                class="input"
+                id="input"
+                placeholder="Digite seu texto"
+              ></textarea>
+            </div>
+            <div>
+              <button class="buttonCrypto" id="button-crypto" type="submit">
+                Criptografar
+              </button>
+              <button class="buttonDecrypto" id="button-decrypto" type="submit">
+                Descriptografar
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <section class="outputContainer">
+          <div>
+            <div id="message" class="message">
+              <img class="person" src="person.png" alt="person" />
+              <div class="message-info">
+                <h3 class="title">Nenhuma mensagem encontrada</h3>
+                <span
+                  >Digite um texto que você deseja criptografar ou
+                  descriptografar.</span
+                >
+              </div>
+            </div>
+            <textarea
+              class="output"
+              name="text"
+              id="output"
+              cols="30"
+              rows="10"
+              disabled
+            ></textarea>
+          </div>
+          <div>
+            <button class="buttonCopy hidden" id="button-copy" type="submit">
+              Copiar
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>ONE Challenge 1 - Decodificador - Aislã Lucio</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

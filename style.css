@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background: #baffbd;
+  color: #669b68;
+}
+
+.logo {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 1rem;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.message-info {
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 20rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.message-info h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.message-info span {
+  color: #fff;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.person {
+  left: 10%;
+  top: 10%;
+  padding: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.inputContainer {
+  background: none;
+  width: 30rem;
+  height: 47rem;
+  padding: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.input {
+  background: transparent;
+  padding: 1em;
+  color: #669b68;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: bold;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s;
+  border: none;
+  resize: none;
+  outline: none;
+  overflow: hidden;
+}
+
+.input::placeholder {
+  color: #669b68;
+  opacity: 1;
+}
+
+.outputContainer {
+  background-color: #669b68;
+  height: 51rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.output {
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  font-family: "inter", sans-serif;
+  background: transparent;
+  color: #fff;
+}
+
+.buttonCopy {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+  background-color: transparent;
+  border: 2px solid #baffbd;
+  outline: none;
+  padding: 1rem 10rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: #baffbd;
+}
+
+.buttonCopy:hover {
+  background-color: #baffbd;
+  color: #669b68;
+}
+
+.buttonCrypto,
+.buttonDecrypto {
+  bottom: 2rem;
+  left: 1.5rem;
+  background-color: transparent;
+  border: 2px solid #669b68;
+  outline: none;
+  padding: 1rem 11rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: #669b68;
+}
+
+.buttonCrypto:hover,
+.buttonDecrypto:hover {
+  background-color: #669b68;
+  color: #baffbd;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  background-color: #669b68;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
